@@ -239,12 +239,13 @@ footer {
   gap: 1.5rem;
 }
 
-.socials-icons a {
+.socials-icons i {
   color: white;
   transition: color 0.2s ease;
 }
 
-.socials-icons a:hover {
+.socials-icons i:hover {
+  cursor: pointer;
   color: var(--pink);
 }
 
