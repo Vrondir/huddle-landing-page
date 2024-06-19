@@ -45,7 +45,7 @@ header nav a {
   background-color: white;
   border-radius: 2rem;
   padding: 0.5rem 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -108,7 +108,7 @@ header nav a:hover {
   text-align: center;
   gap: 4rem;
   background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075);
   border-radius: 1rem;
   padding: 3rem 3rem;
   margin: 0 1.5rem;
@@ -148,7 +148,7 @@ header nav a:hover {
   gap: 2rem;
   background-color: white;
   border-radius: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075);
 }
 
 .bottom-card h1 {
@@ -265,12 +265,13 @@ footer {
 
 @media (min-width: 768px) {
   .feature {
+    margin-top: 10rem;
     align-items: center;
   }
   .feature-block {
     flex-direction: row;
     align-items: center;
-    max-width: 65rem;
+    max-width: 67rem;
   }
   .feature-block img {
     order: 2;
@@ -307,7 +308,7 @@ footer {
 @media (min-width: 1024px) {
   header nav {
     padding: 3rem 3rem;
-    max-width: 75rem;
+    max-width: 78rem;
     margin: auto;
   }
   header nav img {
@@ -322,8 +323,8 @@ footer {
     align-items: center;
     margin: auto;
     text-align: left;
-    max-width: 75rem;
-    padding-top: 0;
+    max-width: 78rem;
+    padding-top: 1rem;
   }
   .header-text {
     order: 1;
