@@ -306,7 +306,7 @@ footer {
 @media (min-width: 1024px) {
   header nav {
     padding: 3rem 3rem;
-    max-width: 1210px;
+    max-width: 75rem;
     margin: auto;
   }
   header nav img {
@@ -321,7 +321,7 @@ footer {
     align-items: center;
     margin: auto;
     text-align: left;
-    max-width: 1210px;
+    max-width: 75rem;
     padding-top: 0;
   }
   .header-text {
