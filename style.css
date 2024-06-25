@@ -18,25 +18,25 @@ body {
   font-family: var(--primary);
 }
 
-header {
+.container {
   background-image: url('../images/bg-hero-mobile.svg');
   background-color: var(--very-pale-cyan);
   width: 100%;
 }
 
-header nav {
+.container nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
 }
 
-header nav img {
+.container nav img {
   max-width: 8rem;
   height: auto;
 }
 
-header nav a {
+.container nav a {
   text-decoration: none;
   color: var(--very-dark-cyan);
   font-family: var(--headings);
@@ -49,7 +49,7 @@ header nav a {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-header nav a:hover {
+.container nav a:hover {
   background-color: rgba(255, 255, 255, 0.788);
   color: rgba(0, 0, 0, 0.404);
 }
@@ -306,16 +306,16 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  header nav {
+  .container nav {
     padding: 3rem 3rem;
     max-width: 78rem;
     margin: auto;
   }
-  header nav img {
+  .container nav img {
     max-width: 11rem;
     height: auto;
   }
-  header nav a {
+  .container nav a {
     padding: 0.7rem 3.5rem;
   }
   .header-items {
